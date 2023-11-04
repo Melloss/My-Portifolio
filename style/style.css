@@ -13,6 +13,7 @@ a {
   cursor: pointer;
 }
 
+
 body {
   font-family: "Courier New", Courier, monospace;
 }
@@ -29,7 +30,7 @@ body {
   }
 
   header {
-    background-image: url("../imgs/header-1.jpg");
+    background-image: url("../imgs/background.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -172,7 +173,7 @@ body {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     border: 1px solid rgba(0, 0, 0, 0.2);
     margin: 30px;
-
+    height: auto;
     padding: 25px;
     margin-bottom: 100px;
     transition: transform 500ms;
@@ -371,7 +372,25 @@ body {
     bottom: -15px;
     left: 0;
     border-radius: 5px;
-    width: 85%;
+    width: 95%;
+  }
+  .skill_info p:nth-child(8):after {
+    content: "";
+    position: absolute;
+    border: 2px solid rgb(128, 0, 128);
+    bottom: -15px;
+    left: 0;
+    border-radius: 5px;
+    width: 80%;
+  }
+  .skill_info p:nth-child(9):after {
+    content: "";
+    position: absolute;
+    border: 2px solid rgb(128, 0, 128);
+    bottom: -15px;
+    left: 0;
+    border-radius: 5px;
+    width: 50%;
   }
 
   .skill_info p::before {
@@ -415,7 +434,7 @@ body {
     width: 60%;
   }
   .card:nth-child(2) {
-    width: 40%;
+    width: 60%;
   }
 
   header {
